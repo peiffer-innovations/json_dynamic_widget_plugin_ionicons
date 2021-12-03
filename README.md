@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Plugin to the [JSON Dynamic Widget](https://peiffer-innovations.github.io/json_dynamic_widget) to provide named support for Material Icons.
+Plugin to the [JSON Dynamic Widget](https://peiffer-innovations.github.io/json_dynamic_widget) to provide named support for [Ionicons](https://ionicons.com/) using the [ionicons](https://pub.dev/packages/ionicons) library as the base.
 
 
 ## Using the Plugin
@@ -35,7 +35,7 @@ void main() {
 
   // Bind the plugin to the registry.  This is necessary for the registry to
   // find the widget provided by the plugin
-  JsonMaterialIconsPlugin.bind(registry);
+  JsonIoniconsPlugin.bind(registry);
 
   // ...
 }
