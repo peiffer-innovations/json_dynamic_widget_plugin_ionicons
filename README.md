@@ -41,10 +41,10 @@ void main() {
 }
 ```
 
-The icons can be referenced by name ising the new `ionicons` type such as:
+The icons can be referenced by name ising the new `ionicon` type such as:
 ```dart
 {
-  'type': 'ionicons',
+  'type': 'ionicon',
   'args': {
     'icon': 'arrow_up'
   }
