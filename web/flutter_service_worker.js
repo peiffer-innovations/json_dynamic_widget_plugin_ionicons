@@ -7,21 +7,21 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"index.html": "f87c00fb29efcb1a74611e031a18b614",
-"/": "f87c00fb29efcb1a74611e031a18b614",
+"index.html": "07968fd9495f41c2d91f9968a8dd1ad4",
+"/": "07968fd9495f41c2d91f9968a8dd1ad4",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "ed6432e32fcb2135980f3eb91c578200",
+"main.dart.js": "6d959f068a4f2183c761393b23c2c9dd",
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
 "version.json": "ff966ab969ba381b900e61629bfb9789",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"assets/FontManifest.json": "8c6157dee49abc315fa5377e963cc9e8",
+"assets/FontManifest.json": "19edf42864e94a1e6c21f637e64974be",
 "assets/NOTICES": "ebb9db677f77b0df6a0080729e05fa6a",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/pages/ionicons.json": "8f19f9952efaa075d0c062b5c7c02691",
-"assets/packages/ionicons/fonts/Ionicons.ttf": "0cdf2a324d5c21f08c7f446476aa2ee3",
-"assets/AssetManifest.json": "697714193a96f1c67b65633b3efc1300"
+"assets/packages/ionicons/assets/fonts/Ionicons.ttf": "a48ca9e5bcc89fccac32592416234257",
+"assets/AssetManifest.json": "cb6e4c983651056f9de564365566fb4f"
 };
 
 // The application shell files that are downloaded before a service worker can
