@@ -21,9 +21,9 @@ void main() async {
     }
   });
 
-  var navigatorKey = GlobalKey<NavigatorState>();
+  final navigatorKey = GlobalKey<NavigatorState>();
 
-  var registry = JsonWidgetRegistry.instance;
+  final registry = JsonWidgetRegistry.instance;
   JsonIoniconsPlugin.bind(registry);
 
   // There are thousands of icons so the schema validation takes forever in
@@ -32,7 +32,7 @@ void main() async {
 
   registry.navigatorKey = navigatorKey;
 
-  var data = JsonWidgetData.fromDynamic(
+  final data = JsonWidgetData.fromDynamic(
     json.decode(
       await rootBundle.loadString('assets/pages/ionicons.json'),
     ),

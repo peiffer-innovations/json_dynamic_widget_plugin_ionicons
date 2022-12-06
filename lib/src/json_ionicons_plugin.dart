@@ -4,7 +4,7 @@ import 'package:json_theme/json_theme_schemas.dart';
 
 class JsonIoniconsPlugin {
   static void bind(JsonWidgetRegistry registry) {
-    var schemaCache = SchemaCache();
+    final schemaCache = SchemaCache();
     schemaCache.addSchema(
       IoniconSchema.id,
       IoniconSchema.schema,
@@ -12,7 +12,7 @@ class JsonIoniconsPlugin {
 
     registry.registerCustomBuilder(
       JsonIoniconBuilder.type,
-      JsonWidgetBuilderContainer(
+      const JsonWidgetBuilderContainer(
         builder: JsonIoniconBuilder.fromDynamic,
         schemaId: IoniconSchema.id,
       ),
