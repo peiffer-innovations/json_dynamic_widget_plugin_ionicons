@@ -11621,7 +11621,6 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 ionicons_named
-json_dynamic_widget_plugin_ionicons
 
 MIT License
 
@@ -11677,6 +11676,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 json_class
+json_dynamic_widget_plugin_ionicons
 
 MIT License
 
