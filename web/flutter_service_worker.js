@@ -18,8 +18,8 @@ const RESOURCES = {
 "assets/packages/ionicons/assets/fonts/Ionicons.ttf": "a48ca9e5bcc89fccac32592416234257",
 "assets/FontManifest.json": "19edf42864e94a1e6c21f637e64974be",
 "assets/NOTICES": "db85ef31ea0ab14893be11987f7d186d",
-"index.html": "a2dd9753111399f39b50ae6c4d16cd2c",
-"/": "a2dd9753111399f39b50ae6c4d16cd2c",
+"index.html": "a7617a325f996629369557172e87efcc",
+"/": "a7617a325f996629369557172e87efcc",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1"
 };
