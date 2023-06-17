@@ -11,7 +11,7 @@ class JsonIoniconsPlugin {
     );
 
     registry.registerCustomBuilder(
-      JsonIoniconBuilder.type,
+      JsonIoniconBuilder.kType,
       const JsonWidgetBuilderContainer(
         builder: JsonIoniconBuilder.fromDynamic,
         schemaId: IoniconSchema.id,

@@ -17,7 +17,7 @@ class JsonIoniconBuilder extends JsonWidgetBuilder {
   }) : super(numSupportedChildren: kNumSupportedChildren);
 
   static const kNumSupportedChildren = 0;
-  static const type = 'ionicon';
+  static const kType = 'ionicon';
 
   final Color? color;
   final IconData? icon;
