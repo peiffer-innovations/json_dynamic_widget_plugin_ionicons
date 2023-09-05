@@ -1,3 +1,8 @@
+## [3.0.2+10] - September 5, 2023
+
+* Automated dependency updates
+
+
 ## [3.0.2+9] - August 22, 2023
 
 * Automated dependency updates
@@ -311,6 +316,7 @@
 ## [1.0.0] - December 2nd, 2021
 
 * Initial release
+
 
 
 
