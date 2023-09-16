@@ -1,11 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:ionicons_named/ionicons_named.dart';
 import 'package:json_dynamic_widget/json_dynamic_widget.dart';
 import 'package:json_dynamic_widget_plugin_ionicons/json_dynamic_widget_plugin_ionicons.dart';
-import 'package:json_theme/json_theme_schemas.dart';
 import 'package:logging/logging.dart';
 
 void main() async {
@@ -24,7 +21,7 @@ void main() async {
   final navigatorKey = GlobalKey<NavigatorState>();
 
   final registry = JsonWidgetRegistry.instance;
-  JsonIoniconsPlugin.bind(registry);
+  JsonIoniconsPluginRegistrar.registerDefaults(registry: registry);
 
   // There are thousands of icons so the schema validation takes forever in
   // debug mode.  Let's turn it off.
@@ -36,7 +33,7 @@ void main() async {
     json.decode(
       await rootBundle.loadString('assets/pages/ionicons.json'),
     ),
-  )!;
+  );
 
   registry.setValue('icons', ionicons);
 
@@ -52,7 +49,7 @@ void main() async {
 }
 
 class ExampleWidgetPage extends StatelessWidget {
-  ExampleWidgetPage({
+  const ExampleWidgetPage({
     Key? key,
     required this.data,
   }) : super(key: key);
