@@ -41,7 +41,7 @@ jobs:
 
 
       - name: Validate
-        uses: peiffer-innovations/actions-flutter-validate@v1
+        uses: peiffer-innovations/actions-flutter-validate@v2
 
       - name: Web
         uses: peiffer-innovations/actions-flutter-deploy-pages@v1
